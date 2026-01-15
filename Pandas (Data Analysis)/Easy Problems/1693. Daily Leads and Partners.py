@@ -1,0 +1,2 @@
+daily_sales = daily_sales.groupby(['date_id', 'make_name'], as_index = False, sort= False).nunique()
+daily_sales.rename(columns = {'lead_id': 'unique_leads', 'partner_id': 'unique_partners'}, inplace = True)
