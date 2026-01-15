@@ -1,0 +1,1 @@
+df.replace({'m':'f', 'f': 'm'}, inplace = True)
