@@ -11,7 +11,7 @@ def dividePlayers(skill):
     
     # This logic attempts to match players manually
     # Note: Sorting the array first is usually the optimal way to solve this
-    # but your solution uses a visited set approach.
+    # but my solution uses a visited set approach.
     for i in range(size):
         if i in visited:
             continue
